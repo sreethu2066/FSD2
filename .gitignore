@@ -1,0 +1,9 @@
+# Local database credentials - NEVER COMMIT TO GIT
+src/main/resources/db.properties
+target/classes/db.properties
+*.properties.local
+
+# Build artifacts
+target/
+build/
+.settings/

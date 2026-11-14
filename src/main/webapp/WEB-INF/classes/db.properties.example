@@ -1,0 +1,6 @@
+# Example database configuration template
+# Copy this file to db.properties and set your local credentials
+db.driver=com.mysql.cj.jdbc.Driver
+db.url=jdbc:mysql://localhost:3306/cargo_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+db.user=your_mysql_username
+db.password=your_mysql_password
